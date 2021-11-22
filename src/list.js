@@ -100,9 +100,4 @@ const list = {
     listNumbers: ['list is empty']
 }
 
-// list.severalAdd([1, 2, 3], 0);
-// list.deleteInner(2);
-// list.writeConsole(list.node0);
-// list.deleteInner(1);
-// list.writeConsole(list.node0);
 
