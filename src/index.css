@@ -1,0 +1,107 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+input:focus{
+    outline: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+body{
+    font-size: 100%;
+	line-height: 1;
+	font-size: 24px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+    background: #fff;
+    overflow: hidden;
+    /* font-family: "Klaxons"; */
+}
+
+.demoizo:hover, .demoizo:focus, .demoizo:active {
+    background: url(http://изо2.jpg) no-repeat 50% 50%;
+   }
+  
+  .demoizo:hover img, .demoizo:focus img, .demoizo:active img  {
+    background: transparent;
+    visibility: hidden;
+  }
+
+.allButtons{
+    border-bottom: 5px solid #000000;
+    display: flex;
+	justify-content: right;
+    padding: 1%;
+}
+
+.linkedList{
+    display: flex;
+    position: fixed; 
+    overflow-y: scroll;
+    height: 280px;
+    width: 100%;
+    margin: 10% 0% 0% 0%;
+    padding: 0px 10px 0px 10px;
+}
+
+p{
+    font-size: 100px;
+    margin: 10px 10px 10px 0px;
+}
+
+.node{
+    border: 5px solid #000000;
+    border-radius: 20px;
+    text-align: center;
+    max-width: fit-content;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+img{
+    height: 4%;
+    width: 4%;
+    margin-right: 1%;
+}
+
+input{
+    border: 5px solid #000000;
+    border-radius: 20px;
+    background-color: #00000000;
+    text-align: center;
+    font-size: 24px;
+    margin-right: 1%;
+}
+
+.mainText{
+    margin-right: 435px;
+    font-size: 70px;
+}
+
+.head{
+    background-color: #000000;
+    color: #fff;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    text-align: center;
+    max-width: fit-content;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+.out{
+    display: flex;
+    justify-content: center;
+}
